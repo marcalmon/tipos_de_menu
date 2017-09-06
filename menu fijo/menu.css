@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	padding: 10px;
+	width: 100%;
+	background-color: #A0EE09;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo{
+	width: 15%;
+	height: 100px;
+	padding-left: 20px;
+	/*background-image: url(7d3b695b22c521a674a1b2441482418e--search-logos.jpg);*/
+}
+
+nav ul li:hover{
+	/*background-color: #F88907;*/
+	font-weight: bold;
+	color: #F88907;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+	font-size: 30px;
+}
+
+
+
